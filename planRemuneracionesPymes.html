@@ -29,40 +29,18 @@
     <nav class="navbar navbar-expand-lg bg-ryf sha">
       <div class="container-fluid">
         <!-- Botón hamburguesa alineado a la derecha -->
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Contenedor de los enlaces, alineado a la derecha -->
         <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav w-100 d-flex justify-content-around text-barlow">
-            <a class="nav-link" aria-current="page" href="#som">¿QUIENES SOMOS?</a>
-            <div class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PLANES
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./planPymePro.html">Plan Pyme Pro</a></li>
-                <li><a class="dropdown-item" href="./planFull.html">Plan Full</a></li>
-                <li><a class="dropdown-item" href="./planEmprendedor.html">Plan Emprendedor</a></li>
-                <li><a class="dropdown-item" href="./planBasicContable.html">Plan Basic Contable</a></li>
-                <li><a class="dropdown-item" href="./planRemuneracionesPymes.html">Plan Remuneraciones Pymes</a></li>
-                <li><a class="dropdown-item" href="./planRemuneracionesEmpresas.html">Plan Remuneraciones Empresas</a></li>
-              </ul>
-            </div>
-            <div class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                DECLARACIONES
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./declaracionDeRenta1.html">Declaracion de Renta 1</a></li>
-                <li><a class="dropdown-item" href="./declaracionDeRenta2.html">Declaracion de Renta 2</a></li>
-              </ul>
-            </div>
-
-            <a class="nav-link" href="#vis">VISIÓN</a>
-            <a class="nav-link" href="#val">VALORES</a>
-            <a class="nav-link" href="#res">RESPALDO PROFECIONAL</a>
-            <a class="nav-link" href="#contact">CONTACTO</a>
+            <a class="nav-link" aria-current="page" href="#nos">¿Quienes Somos?</a>
+            
+            
+    
+            <a class="nav-link" href="#serv">Servicio</a>
+            <a class="nav-link" href="#contact">Contacto</a>
           </div>
         </div>
       </div>
@@ -101,69 +79,125 @@
         </div>
       </div>
     </section>
-    <div class="py-3"></div>
-    <div id="som" class="bg-ryf py-4">
+    <div class="pt-3"></div>
+    <div class="d-flex justify-content-center bgrosado">
+      <i class="fa-solid fa-screwdriver-wrench fa-shake fa-3x d-flex justify-content-center w-25 text-dark pt-3"></i>
+    </div>
+      <h2 class="text-center display-3 pt-4 pb-3 mb-0 text-barlow titulo-animado">
+        Daños que podrás reclamar ante la aseguradora
+      </h2>
+      <p class="px-5 text-barlowc texto-fade display-6 text-center pb-2">El dinero de la indemnización es a libre disposicion, no necesariamente lo tiene que ocupar en reparaciones. <br><br>Si tú casa tiene alguno de los siguientes tipos de daños contáctanos:</p>
+      <main class="container">
+        <div class="row justify-content-center align-items-center g-3" id="product-container">
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/fachadas.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Fachada</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/techos.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Techos</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/panderetas.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Panderetas</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/muros.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Muros</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/ceramicos.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Ceramicos</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/molduras.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Molduras</h5>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </main>
+      <div class="py-3"></div>
+     <div id="nos" class="bg-ryf py-4">
       <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        ¿QUIENES SOMOS?
+        ¿Quienes Somos?
       </h2>
       <p class="px-5 text-barlowc texto-fade description text-center pt-4">Somos un estudio contable de jóvenes profesionales dedicados a las áreas de auditoria, contabilidad, tributaria, finanzas, administración, recursos humanos entre otros enfocados en satisfacer las necesidades de su empresa o negocio brindando planes integrales.</p>
       <p class="px-5 text-barlowc texto-fade description text-center pt-2">Nuestro servicio y experiencia están enfocadas en las micro y pequeñas empresas que necesitan un servicio eficaz, oportuno y completo pudiendo resolver sus dudas legales, fiscales, contables, laborales y administrativas llevando un control preciso de todas las operaciones de su empresa.</p>
-    </div>
-    <div id="vis" class="bg-light py-4">
+     </div>
+     <div id="serv" class="bg-light py-4">
       <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        VISIÓN
+        SERVICIO
       </h2>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Ser reconocida como una firma de alto estándar en calidad, oportunidad y variedad en los servicios. buscando la excelencia en toda nuestra oferta, brindando satisfacción a nuestros clientes.</p>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Servicio de Asesoría para Cobro de Seguros por Daños en Viviendas. 🏠🔧</p>
       <a class="navbar-brand py-2 logoanimacion aparicion d-flex justify-content-center" href="./index.html">
-        <img src="./assets/img/portada/logoVision.jpg" class="rounded-circle" alt="Bootstrap" width="180" height="180">
+        <img src="./assets/img/daños.avif" class="rounded-circle" alt="Bootstrap" width="180" height="180">
       </a>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-2">Buscando la excelencia en toda nuestra oferta, brindando satisfacción a nuestros clientes.</p>
-    </div>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-2">¿Has sufrido daños en tu vivienda debido al sismo 💥 Nuestro servicio de asesoría está diseñado para ayudarte a cobrar el seguro asociado a tu crédito hipotecario. 📈💰</p>
+     </div>
      <hr class="m-0">
-    <div id="val" class="bg-light py-4">
+     <div id="nos" class="bg-light py-4">
       <h2 class="text-center display-6 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        VALORES:
+        Requisitos:
       </h2>
-      <div class="d-flex justify-content-center">
-        <ul class="text-barlowc texto-fade description pt-4">
-          <li class="pb-3"><strong>Actitud De Servicio</strong>⏰🕒</li>
-          <li class="pb-3"><strong>Innovación</strong>📝📊</li>
-          <li class="pb-3"><strong>Puntualidad</strong>📞📲</li>
-          <li class="pb-3"><strong>Compromiso</strong>🔍🕵️‍♂️</li>
-          <li class="pb-3"><strong>Honestidad</strong>💸👍</li>
-          <li class="pb-3"><strong>Lealtad</strong>💸👍</li>
-          <li class="pb-3"><strong>Integridad</strong>💸👍</li>
-          <li class="pb-3"><strong>Responsabilidad</strong>💸👍</li>
-          <li class="pb-3"><strong>Ética Profesional</strong>💸👍</li>
-        </ul>
-      </div>
-    </div>
-    <div id="res" class="bg-light py-4">
-      <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        RESPALDO PROFECIONAL
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Estar pagando un crédito hipotecario (bancario, leasing o mutuo) AL DIA 📊👍</p>
+      <h2 class="text-center display-6 pt-4 pb-2 mb-0 text-barlow titulo-animado">
+        Proceso:
       </h2>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4">ContarGroup cuenta con personal altamente calificado en las diferentes áreas de especialización, dedicados a la implementación de las soluciones que comercializa.</p>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4"> Nuestro equipo se prepara en forma permanente para satisfacer las necesidades de nuestros clientes contando con certificaciones en las distintas áreas.</p>
-
-      <!-- <h2 class="display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">Certificaciones del Personal</h2>
-      <div>
-        <ul class="text-barlowc texto-fade description pt-4">
-          <li class="pb-3"><strong>Certificado de Tributacion</strong></li>
-          <li class="pb-3"><strong>Certificado en Contabilidad Para la toma de decisiones</strong></li>
-          <li class="pb-3"><strong>Certificado en Control presupuestario</strong></li>
-          <li class="pb-3"><strong>Certificado en Analisis de cuentas</strong></li>
-          <li class="pb-3"><strong>Certificado en Gestion Laboral y Remuneraciones</strong></li>
-          <li class="pb-3"><strong>Certificado Internacional en Ingles Intermedio</strong></li>
-        </ul>
-      </div> -->
+      <ol class="px-5 text-barlowc texto-fade description pt-4">
+        <li class="pb-3"><strong>Visita Domiciliaria:</strong> Un experto visitará tu hogar para evaluar los daños, sin importar cuán mínimos sean. Si ya arreglaste los daños, de igual manera podemos cobrar el seguro. (Duración: 10-20 minutos) ⏰🕒</li>
+        <li class="pb-3"><strong>Informe Técnico:</strong> Se generará un informe detallado que valorice cada daño. 📝📊</li>
+        <li class="pb-3"><strong>Denuncia del Siniestro:</strong> Nos comunicaremos con tu aseguradora o banco para denunciar el siniestro. 📞📲</li>
+        <li class="pb-3"><strong>Visita del Liquidador:</strong> Coordinaremos una visita con el liquidador de la aseguradora para verificar la información. 🔍🕵️‍♂️</li>
+        <li class="pb-3"><strong>Informe de Liquidación:</strong> Esperaremos el informe de liquidación y, si es positivo, recibirás la indemnización directamente en tu cuenta. 💸👍</li>
+      </ol>
+      <h2 class="text-center display-6 pt-4 pb-2 mb-0 text-barlow titulo-animado">
+        Honorarios:
+      </h2>
+      <ul class="px-5 text-barlowc texto-fade description pt-4">
+        <li class="pb-3">Cobramos un 20% de la indemnización si es exitosa. 📈💸</li>
+        <li class="pb-3">No cobramos nada si el siniestro es rechazado. 🙅‍♂️👎</li>
+      </ul>
       <div class="d-flex justify-content-center pb-4">
         <!-- Botón para agendar visita -->
-        <a href="https://wa.me/56920700893?text=Hola,%20me%20gustaría%20agendar%20una%20visita."
-          class="btn-agenda" target="_blank">
-          📅 Agenda tu visita
-        </a>
+  <a href="https://wa.me/56920700893?text=Hola,%20me%20gustaría%20agendar%20una%20visita." 
+  class="btn-agenda" target="_blank">
+ 📅 Agenda tu visita
+</a>
       </div>
-    </div>
+      
+     </div>
 
     <div class="counter-container pt-5 pb-5 bg-seguro">
       <div class="bg-whiteopacity rounded p-4">
@@ -199,9 +233,8 @@
       <p class="px-5 text-barlowc texto-fade description text-center text-dark bg-light w-75 rounded d-flex align-items-center justify-content-center">Contacto@asesoresryf.com</p>
       <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Redes:</p>
       <div class="col-12 col-md-3 d-flex justify-content-center gap-5 pb-5">
-        <a href="https://www.instagram.com/contargroup/?hl=es" target="_blank"><i class="fa-brands fa-square-instagram fa-3x bg-insta active"></i></a>
-        <a href="https://www.facebook.com/ContarGroup" target="_blank"><i class="fa-brands fa-square-facebook fa-3x text-primary"></i></a>
-        <a href="https://www.linkedin.com/in/contar-group/" target="_blank"><i class="fa-brands fa-square-linkedin fa-3x bg-insta active"></i></a>
+        <a href="https://www.instagram.com/asesoresryf" target="_blank"><i class="fa-brands fa-square-instagram fa-3x bg-insta active"></i></a>
+        <a href="https://www.facebook.com/share/14n382nfdU/" target="_blank"><i class="fa-brands fa-square-facebook fa-3x text-primary"></i></a>
       </div>
       <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Dirección:</p>
       <p class="px-5 text-barlowc texto-fade description text-center text-dark bg-light w-75 rounded d-flex align-items-center justify-content-center">30 Oriente #1420 Oficina 514 - Edificio Plaza Oriente</p>
