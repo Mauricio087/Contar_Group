@@ -35,192 +35,70 @@
         <!-- Contenedor de los enlaces, alineado a la derecha -->
         <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav w-100 d-flex justify-content-around text-barlow">
-            <a class="nav-link" aria-current="page" href="#nos">¿Quienes Somos?</a>
-            
-            
-    
-            <a class="nav-link" href="#serv">Servicio</a>
+            <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PLANES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./planFull.html">Plan Full</a></li>
+                <li><a class="dropdown-item" href="./planEmprendedor.html">Plan Emprendedor</a></li>
+                <li><a class="dropdown-item" href="./planBasicContable.html">Plan Basic Contable</a></li>
+                <li><a class="dropdown-item" href="./planRemuneracionesPymes.html">Plan Remuneraciones Pymes</a></li>
+                <li><a class="dropdown-item" href="./planRemuneracionesEmpresas.html">Plan Remuneraciones Empresas</a></li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DECLARACIONES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./declaracionDeRenta1.html">Declaracion de Renta 1</a></li>
+                <li><a class="dropdown-item" href="./declaracionDeRenta2.html">Declaracion de Renta 2</a></li>
+              </ul>
+            </div>
+
             <a class="nav-link" href="#contact">Contacto</a>
           </div>
         </div>
       </div>
     </nav>
-    <section id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000" data-bs-pause="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="image-container">
-            <img src="./assets/img/portada/1.1.jpg" class="d-block w-100 img1" alt="Flor 1">
-            <div class="carousel-caption-container">
-              <div class="carousel-caption">
-                <p class="bg-darkk rounded px-5">TE AYUDAMOS A gestionar tu seguro asociado AL CREDITO hipotecario DE TU VIVIENDA</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="image-container">
-            <img src="./assets/img/portada/2.png" class="d-block w-100 img1" alt="Flor 2">
-            <div class="carousel-caption-container">
-              <div class="carousel-caption">
-                <p class="bg-darkk rounded px-5">Si estas pagando tu dividendo tienes derecho a ser indemnizado por sismo, rotura de cañeria e incendio.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="image-container">
-            <img src="./assets/img/portada/3.webp" class="d-block w-100 img1" alt="Flor 3">
-            <div class="carousel-caption-container">
-              <div class="carousel-caption">
-                <p class="bg-darkk rounded px-5">En Asesores RyF te podemos asesorar sin costo anticipado, LLAMANOS +56955310518</p>
-              </div>
-            </div>
-          </div>
+
+      <div id="nos" class="bg-ryf py-4">
+        <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
+          PLAN EMPRENDEDOR
+        </h2>
+      </div>
+      <div id="serv" class="bg-light py-4">
+        <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
+          30.000 + IVA (Mensual)
+        </h2>
+        <div class="d-flex justify-content-center">
+          <ul class="text-barlowc texto-fade description pt-4">
+            <li class="pb-3"><strong>Declaración mensual de impuestos (F29 o 50)</strong></li>
+            <li class="pb-3"><strong>Asesoría contable permanente</strong></li>
+            <li class="pb-3"><strong>Revisión y validación del Registro de Compras y Ventas, RCV.</strong></li>
+            <li class="pb-3"><strong>Registros de Importaciones</strong></li>
+            <li class="pb-3"><strong>Registros contables en nuestro sistema online (mensual)</strong></li>
+            <li class="pb-3"><strong>Balance Tributario y financiero en IFRS (trimestral)</strong></li>
+            <li class="pb-3"><strong>Balance y estado de resultado clasificado trimestral</strong></li>
+            <li class="pb-3"><strong>Declaraciones Juradas anual sin costo adicional</strong></li>
+            <li class="pb-3"><strong>Declaración de Renta (F22) con 30% descuento</strong></li>
+          </ul>
         </div>
       </div>
-    </section>
-    <div class="pt-3"></div>
-    <div class="d-flex justify-content-center bgrosado">
-      <i class="fa-solid fa-screwdriver-wrench fa-shake fa-3x d-flex justify-content-center w-25 text-dark pt-3"></i>
-    </div>
-      <h2 class="text-center display-3 pt-4 pb-3 mb-0 text-barlow titulo-animado">
-        Daños que podrás reclamar ante la aseguradora
-      </h2>
-      <p class="px-5 text-barlowc texto-fade display-6 text-center pb-2">El dinero de la indemnización es a libre disposicion, no necesariamente lo tiene que ocupar en reparaciones. <br><br>Si tú casa tiene alguno de los siguientes tipos de daños contáctanos:</p>
-      <main class="container">
-        <div class="row justify-content-center align-items-center g-3" id="product-container">
-
-          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="./assets/img/rep/fachadas.svg" class="card-img-top im" alt="${product.title}">
-              <div class="card-body pt-0">
-                <h5 class="card-title tituloc text-center">Fachada</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="./assets/img/rep/techos.svg" class="card-img-top im" alt="${product.title}">
-              <div class="card-body pt-0">
-                <h5 class="card-title tituloc text-center">Techos</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="./assets/img/rep/panderetas.svg" class="card-img-top im" alt="${product.title}">
-              <div class="card-body pt-0">
-                <h5 class="card-title tituloc text-center">Panderetas</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="./assets/img/rep/muros.svg" class="card-img-top im" alt="${product.title}">
-              <div class="card-body pt-0">
-                <h5 class="card-title tituloc text-center">Muros</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="./assets/img/rep/ceramicos.svg" class="card-img-top im" alt="${product.title}">
-              <div class="card-body pt-0">
-                <h5 class="card-title tituloc text-center">Ceramicos</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-            <div class="card">
-              <img src="./assets/img/rep/molduras.svg" class="card-img-top im" alt="${product.title}">
-              <div class="card-body pt-0">
-                <h5 class="card-title tituloc text-center">Molduras</h5>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-      </main>
-      <div class="py-3"></div>
-     <div id="nos" class="bg-ryf py-4">
-      <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        ¿Quienes Somos?
-      </h2>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Somos un estudio contable de jóvenes profesionales dedicados a las áreas de auditoria, contabilidad, tributaria, finanzas, administración, recursos humanos entre otros enfocados en satisfacer las necesidades de su empresa o negocio brindando planes integrales.</p>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-2">Nuestro servicio y experiencia están enfocadas en las micro y pequeñas empresas que necesitan un servicio eficaz, oportuno y completo pudiendo resolver sus dudas legales, fiscales, contables, laborales y administrativas llevando un control preciso de todas las operaciones de su empresa.</p>
-     </div>
-     <div id="serv" class="bg-light py-4">
-      <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        SERVICIO
-      </h2>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Servicio de Asesoría para Cobro de Seguros por Daños en Viviendas. 🏠🔧</p>
-      <a class="navbar-brand py-2 logoanimacion aparicion d-flex justify-content-center" href="./index.html">
-        <img src="./assets/img/daños.avif" class="rounded-circle" alt="Bootstrap" width="180" height="180">
-      </a>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-2">¿Has sufrido daños en tu vivienda debido al sismo 💥 Nuestro servicio de asesoría está diseñado para ayudarte a cobrar el seguro asociado a tu crédito hipotecario. 📈💰</p>
-     </div>
-     <hr class="m-0">
-     <div id="nos" class="bg-light py-4">
-      <h2 class="text-center display-6 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        Requisitos:
-      </h2>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Estar pagando un crédito hipotecario (bancario, leasing o mutuo) AL DIA 📊👍</p>
-      <h2 class="text-center display-6 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        Proceso:
-      </h2>
-      <ol class="px-5 text-barlowc texto-fade description pt-4">
-        <li class="pb-3"><strong>Visita Domiciliaria:</strong> Un experto visitará tu hogar para evaluar los daños, sin importar cuán mínimos sean. Si ya arreglaste los daños, de igual manera podemos cobrar el seguro. (Duración: 10-20 minutos) ⏰🕒</li>
-        <li class="pb-3"><strong>Informe Técnico:</strong> Se generará un informe detallado que valorice cada daño. 📝📊</li>
-        <li class="pb-3"><strong>Denuncia del Siniestro:</strong> Nos comunicaremos con tu aseguradora o banco para denunciar el siniestro. 📞📲</li>
-        <li class="pb-3"><strong>Visita del Liquidador:</strong> Coordinaremos una visita con el liquidador de la aseguradora para verificar la información. 🔍🕵️‍♂️</li>
-        <li class="pb-3"><strong>Informe de Liquidación:</strong> Esperaremos el informe de liquidación y, si es positivo, recibirás la indemnización directamente en tu cuenta. 💸👍</li>
-      </ol>
-      <h2 class="text-center display-6 pt-4 pb-2 mb-0 text-barlow titulo-animado">
-        Honorarios:
-      </h2>
-      <ul class="px-5 text-barlowc texto-fade description pt-4">
-        <li class="pb-3">Cobramos un 20% de la indemnización si es exitosa. 📈💸</li>
-        <li class="pb-3">No cobramos nada si el siniestro es rechazado. 🙅‍♂️👎</li>
-      </ul>
       <div class="d-flex justify-content-center pb-4">
         <!-- Botón para agendar visita -->
-  <a href="https://wa.me/56920700893?text=Hola,%20me%20gustaría%20agendar%20una%20visita." 
-  class="btn-agenda" target="_blank">
- 📅 Agenda tu visita
-</a>
+        <a href="https://wa.me/56920700893?text=Hola,%20me%20gustaría%20agendar%20una%20visita."
+          class="btn-agenda" target="_blank">
+          📅 Agenda tu visita
+        </a>
       </div>
-      
-     </div>
 
-    <div class="counter-container pt-5 pb-5 bg-seguro">
-      <div class="bg-whiteopacity rounded p-4">
-        <div class="counter-box">
-          <p class="text-barlowc text-count">Número de clientes atendidos</p>
-          <p class="counter" data-target="1200">0</p>
-        </div>
-      </div>
-      <div class="bg-whiteopacity rounded p-4">
-        <div class="counter-box">
-          <p class="text-barlowc text-count">Total indemnizado clientes</p>
-          <p class="counter money" data-target="2100240635">$ 0</p>
-        </div>
-      </div>
-      <div class="bg-whiteopacity rounded p-4">
-        <div class="counter-box">
-          <p class="text-barlowc text-count">Cantidad de bancos gestionados</p>
-          <p class="counter" data-target="15">0</p>
-        </div>
-      </div>
-    </div>
-    
-    <div id="contact" class="bg-dark py-4 d-flex flex-column justify-content-center align-items-center widthcien">
+
+
+    <div id="contact" class="bg-dark py-4 d-flex flex-column justify-content-center align-items-center   widthcien">
       <a class="navbar-brand py-2 logoanimacion aparicion d-flex justify-content-center" href="./index.html">
         <img src="./assets/img/logo.png" class="rounded-circle" alt="Bootstrap" width="130" height="130">
       </a>
@@ -236,34 +114,19 @@
         <a href="https://www.instagram.com/asesoresryf" target="_blank"><i class="fa-brands fa-square-instagram fa-3x bg-insta active"></i></a>
         <a href="https://www.facebook.com/share/14n382nfdU/" target="_blank"><i class="fa-brands fa-square-facebook fa-3x text-primary"></i></a>
       </div>
-      <p class="px-5 text-barlowc texto-fade description text-center pt-4 text-light">Dirección:</p>
-      <p class="px-5 text-barlowc texto-fade description text-center text-dark bg-light w-75 rounded d-flex align-items-center justify-content-center">30 Oriente #1420 Oficina 514 - Edificio Plaza Oriente</p>
-      <div class="row justify-content-center w-75 py-4">
-        <div class="w-100 px-0"> <!-- Ajusta el tamaño para que no sea tan ancho en pantallas grandes -->
-            <div class="w-100">
-              <iframe class="w-100 he rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.997481543032!2d-71.62958328723188!3d-35.43009240149823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c741c231b8f7%3A0x4b768cd5078d4416!2sCalle%2030%20Ote.%201420%2C%20Talca%2C%20Maule!5e0!3m2!1sen!2scl!4v1740311812464!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
     </div>
-     </div>
-     <footer class="row bgfoot p-5 gap-5 justify-content-evenly align-items-center">
-      <div class="col-12 col-md-3 d-flex justify-content-center flex-column gap-2 text-center">
-        <a href="#nos"; class="hp">Sobre Nosotros</a>
-        <a href="#serv"; class="hp">Servicio</a>
-        <a href="#contact"; class="hp">Contacto</a>
-      </div>
-      
+    <footer class="row bgfoot p-5 gap-5 justify-content-evenly align-items-center">
       <div class="col-12 col-md-3 d-flex justify-content-center"><p>Todos los derechos reservados.</p></div>
     </footer>
     <!-- Botón de WhatsApp -->
-<a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
-</a>
+    <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
 
-<!-- Botón de subir -->
-<a href="#top" class="scroll-to-top-btn" id="scrollToTopBtn">
-  <i class="fas fa-arrow-up"></i> <!-- Icono de flecha hacia arriba -->
-</a>
+    <!-- Botón de subir -->
+    <a href="#top" class="scroll-to-top-btn" id="scrollToTopBtn">
+      <i class="fas fa-arrow-up"></i> <!-- Icono de flecha hacia arriba -->
+    </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
   </body>
